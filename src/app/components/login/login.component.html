@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="wrapper">
+        <span class="icon-close"><i class="fa fa-times"></i></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form [formGroup]="loginForm">
+                <div class="input-box">
+                    <span class="icon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" formControlName="Email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon" (click)="visible = !visible"><i class="fa fa-eye"></i></span>
+                    <input [type]="visible ? 'text' : 'password'" formControlName="Password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn" (click)="loginBtn()">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

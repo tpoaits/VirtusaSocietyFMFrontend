@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-name {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: all 0.3s ease;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 15px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.open {
+    left: 0;
+}
+
+main {
+    padding: 20px;
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+}
+
+main h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+.shift-right {
+    margin-left: 250px;
+}
+
+.sidebar-toggle {
+    background: transparent;
+    border: transparent;
+    color: white;
+}
+
+.brand {
+    z-index: 9999;
+}

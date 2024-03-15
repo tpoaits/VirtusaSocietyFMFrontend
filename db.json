@@ -1,0 +1,76 @@
+{
+  "Residents": [
+    {
+      "flatNo": "101",
+      "name": "Mahesh Babu",
+      "mobile": 8464880036,
+      "rent": 10000,
+      "advance": 20000,
+      "date": "2024-03-08",
+      "id": "9f0a"
+    },
+    {
+      "id": "1be1",
+      "flatNo": "102",
+      "name": "Thota",
+      "mobile": "838216323213",
+      "rent": "15000",
+      "advance": "30000",
+      "date": "2024-03-01"
+    },
+    {
+      "id": "7f50",
+      "flatNo": "103",
+      "name": "Babu",
+      "mobile": "7878787879",
+      "rent": "10000",
+      "advance": "20000",
+      "date": "2024-03-01"
+    },
+    {
+      "id": -1,
+      "flatNo": "105",
+      "name": "Test",
+      "mobile": "88",
+      "rent": "88",
+      "advance": "8",
+      "date": "1999-01-01"
+    },
+    {
+      "id": "0354",
+      "flatNo": "10198",
+      "name": "hbhbhVHV",
+      "mobile": "HV",
+      "rent": "V",
+      "advance": "hvb",
+      "date": "1999-01-01"
+    },
+    {
+      "id": "d646",
+      "flatNo": "10198",
+      "name": "hbhbhVHV",
+      "mobile": "HV",
+      "rent": "V",
+      "advance": "hvb",
+      "date": "1999-01-01"
+    },
+    {
+      "id": "50e1",
+      "flatNo": "1019",
+      "name": "hbhbhVHV",
+      "mobile": "HV",
+      "rent": "V",
+      "advance": "hvb",
+      "date": "1999-01-01"
+    },
+    {
+      "id": "2a89",
+      "flatNo": "101",
+      "name": "Mahesh Babu",
+      "mobile": 8464880036,
+      "rent": 10000,
+      "advance": 20000,
+      "date": "2024-03-08"
+    }
+  ]
+}

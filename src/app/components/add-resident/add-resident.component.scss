@@ -1,0 +1,18 @@
+.btna {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+    .btna {
+        justify-content: space-between !important;
+    }
+
+    .btn {
+        width: 140px;
+    }
+}
+
+.container .row {
+    margin-top: 10px;
+}
